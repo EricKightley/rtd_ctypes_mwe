@@ -6,7 +6,7 @@ Installation
 ------------
 
 To install the package, clone the repository, make a virtual environment and
-activate it, change directory to `rdt_ctypes_mwe/`, then::
+activate it, change directory to `rdt_ctypes_mwe/`, then:
 
     python setup.py build_ext --inplace
     pip install .
