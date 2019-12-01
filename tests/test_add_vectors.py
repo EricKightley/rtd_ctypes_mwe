@@ -3,7 +3,7 @@
 import unittest
 import numpy as np
 
-from rtd_ctypes_mwe.ctypes_submodule import add_vectors
+from ctypes_submodule import add_vectors
 
 class TestRtdCtypesMwe(unittest.TestCase):
     def assertArrayEqual(self, x, y):

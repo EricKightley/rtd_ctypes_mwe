@@ -3,9 +3,9 @@
 from setuptools import setup, Extension, find_packages
 
 ctypes_submodule = Extension(
-    'rtd_ctypes_mwe.ctypes_submodule._ctypes_submodule',
+    'ctypes_submodule._ctypes_submodule',
     sources=[
-        'rtd_ctypes_mwe/ctypes_submodule/add_vectors.c',
+        'ctypes_submodule/add_vectors.c',
     ]
 )
 
