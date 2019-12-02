@@ -32,6 +32,8 @@ the build process are as follows:
 - Adding ``.readthedocs.yml`` to the root directory, copied from
   `readthedocs. <https://docs.readthedocs.io/en/stable/config-file/v2.html>`_
 
+`CNN <http://cnn.com>`_
+
 
 To verify that the documentation builds correctly locally,
 after installing the package as above, in the ``docs`` directory run:
