@@ -14,3 +14,24 @@ activate it, change directory to `rdt_ctypes_mwe/`, then:
 To test the installation, run:
 
     pytest
+
+Documentation
+-------------
+
+Documentation is built using sphinx in the ``docs`` directory. Details of
+the build process are as follows:
+
+    - Initialization via ``sphinx-quickstart``.
+    - Creation of `ctypes_submodule.rst`.
+    - Modification of `index.rst` to include `ctypes_submodule`.
+    - Uncommenting lines 13-15 of `conf.py` and modifying the path on line
+      15 from ``.`` to ``..`` so that the documentation can be found locally.
+    - Adding ``'sphinx.ext.autodoc'`` the list of extensions.
+
+To verify that the documentation builds correctly locally,
+after installing the package as above, in the ``docs`` directory run:
+
+    make html
+
+Then ``_build/html/ctypes_submodule.html`` has auto-generated documentation for
+the ``add_vectors`` function.

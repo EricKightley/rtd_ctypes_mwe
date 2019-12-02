@@ -24,7 +24,8 @@ def add_vectors(vec1, vec2):
     """
     Add two vectors.
 
-    This function adds two floating-point vectors together.
+    This function adds two floating-point vectors together. It is a Python
+    wrapper for a function in C, called using `ctypes`. 
 
     :param vec1: the first vector
     :param vec2: the second vector

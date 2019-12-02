@@ -32,10 +32,10 @@ release = '0.1'
 # ones.
 extensions = [
     'sphinx.ext.autodoc',
-    'sphinx.ext.autosummary'
+    # 'sphinx.ext.autosummary'
 ]
-master_doc = 'index'
-autosummary_generate = True
+# master_doc = 'index'
+# autosummary_generate = True
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
