@@ -29,9 +29,8 @@ the build process are as follows:
 - Adding ``'sphinx.ext.autodoc'`` the list of extensions in
 - Adding ``master_doc = 'index'`` to ``conf.py`` so that readthedocs knows to replace
   ``contents.rst`` with ``index.rst``.
-- Adding ``.readthedocs.yml`` to the root directory, copied from readthedocs_.
-
-.. _readthedocs: https://docs.readthedocs.io/en/stable/config-file/v2.html.
+- Adding ``.readthedocs.yml`` to the root directory, copied from
+  `readthedocs. <https://docs.readthedocs.io/en/stable/config-file/v2.html>`_.
 
 
 To verify that the documentation builds correctly locally,
