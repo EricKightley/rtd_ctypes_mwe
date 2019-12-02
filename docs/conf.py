@@ -34,7 +34,7 @@ extensions = [
     'sphinx.ext.autodoc',
     # 'sphinx.ext.autosummary'
 ]
-# master_doc = 'index'
+master_doc = 'index'
 # autosummary_generate = True
 
 # Add any paths that contain templates here, relative to this directory.

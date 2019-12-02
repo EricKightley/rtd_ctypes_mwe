@@ -21,12 +21,15 @@ Documentation
 Documentation is built using sphinx in the ``docs`` directory. Details of
 the build process are as follows:
 
-    - Initialization via ``sphinx-quickstart``.
-    - Creation of `ctypes_submodule.rst`.
-    - Modification of `index.rst` to include `ctypes_submodule`.
-    - Uncommenting lines 13-15 of `conf.py` and modifying the path on line
-      15 from ``.`` to ``..`` so that the documentation can be found locally.
-    - Adding ``'sphinx.ext.autodoc'`` the list of extensions.
+- Initialization via ``sphinx-quickstart``.
+- Creation of ``ctypes_submodule.rst``.
+- Modification of ``index.rst`` to include ``ctypes_submodule``.
+- Uncommenting lines 13-15 of ``conf.py`` and modifying the path on line
+  15 from ``.`` to ``..`` so that the documentation can be found locally.
+- Adding ``'sphinx.ext.autodoc'`` the list of extensions in
+- Adding ``master_doc = 'index'`` to ``conf.py`` so that readthedocs knows to replace
+  ``contents.rst`` with ``index.rst``.
+
 
 To verify that the documentation builds correctly locally,
 after installing the package as above, in the ``docs`` directory run:
