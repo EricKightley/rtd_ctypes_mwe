@@ -4,5 +4,4 @@ __pycache__/
 *.so
 .DS_Store
 _build/
-_static/
 _templates/

@@ -33,6 +33,8 @@ the build process are as follows:
   https://docs.readthedocs.io/en/stable/config-file/v2.html.
 - Add  ``builder: html`` and ``fail_on_warning: true`` to ``sphinx`` in the yml.
 - Add ``requirements.txt`` with ``numpy``.
+- Add ``docs/_static/.gitignore`` to ensure that ``_static`` is included in the repository,
+  so that ``make html`` runs on clone.
 
 To verify that the documentation builds correctly locally,
 after installing the package as above, in the ``docs`` directory run:
