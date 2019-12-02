@@ -26,13 +26,13 @@ the build process are as follows:
 - Modify of ``index.rst`` to include ``ctypes_submodule``.
 - Uncommenting lines 13-15 of ``conf.py`` and modifying the path on line
   15 from ``.`` to ``..`` so that the documentation can be found locally.
-- Adding ``'sphinx.ext.autodoc'`` the list of extensions in
-- Adding ``master_doc = 'index'`` to ``conf.py`` so that readthedocs knows to replace
+- Add ``'sphinx.ext.autodoc'`` the list of extensions in
+- Add ``master_doc = 'index'`` to ``conf.py`` so that readthedocs knows to replace
   ``contents.rst`` with ``index.rst``.
-- Adding ``.readthedocs.yml`` to the root directory, copied from
+- Add ``.readthedocs.yml`` to the root directory, copied from
   https://docs.readthedocs.io/en/stable/config-file/v2.html.
-- Adding  ``builder: html`` and ``fail_on_warning: true`` to ``sphinx`` in the yml.
-- Adding ``requirements.txt`` with ``numpy``.
+- Add  ``builder: html`` and ``fail_on_warning: true`` to ``sphinx`` in the yml.
+- Add ``requirements.txt`` with ``numpy``.
 
 To verify that the documentation builds correctly locally,
 after installing the package as above, in the ``docs`` directory run:
