@@ -30,7 +30,7 @@ the build process are as follows:
 - Adding ``master_doc = 'index'`` to ``conf.py`` so that readthedocs knows to replace
   ``contents.rst`` with ``index.rst``.
 - Adding ``.readthedocs.yml`` to the root directory, copied from
-  `readthedocs. <https://docs.readthedocs.io/en/stable/config-file/v2.html>`_.
+  `readthedocs. <https://docs.readthedocs.io/en/stable/config-file/v2.html>`_
 
 
 To verify that the documentation builds correctly locally,
