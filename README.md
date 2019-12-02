@@ -41,5 +41,5 @@ after installing the package as above, in the ``docs`` directory run:
 
     make html
 
-Then ``_build/html/ctypes_submodule.html`` has auto-generated documentation for
+Then ``docs/_build/html/ctypes_submodule.html`` has auto-generated documentation for
 the ``add_vectors`` function.
