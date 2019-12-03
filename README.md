@@ -18,7 +18,7 @@ To test the installation, run:
 Documentation
 -------------
 
-Documentation is built using sphinx in the ``docs`` directory. With sphinx
+Documentation is built using Sphinx in the ``docs`` directory. With sphinx
 installed, the documentation can be built locally
 (after installing the package as above) by running
 
